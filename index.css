@@ -1,0 +1,17 @@
+
+/**
+ * Artsicle
+ */
+
+.logo[data-logo="Artsicle"] {
+  width: 3.102872627em; /* (2394.96/736.26) * (1) - .05-.1 */
+}
+
+.logo[data-logo="Artsicle"] > * {
+  background-image: url(images/artsicle.svg);
+  margin: 0 -.05em 0 -.1em;
+}
+
+.logo[data-logo="Artsicle"].monochromatic > * {
+  background-image: url(images/artsicle-monochromatic.svg);
+}
